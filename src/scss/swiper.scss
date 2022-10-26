@@ -41,4 +41,8 @@
 .swiper-pagination {
 	position: relative;
 	margin-top: 15px;
+
+	@media (min-width: 768px){
+		display: none;
+	}
 }
